@@ -7,21 +7,16 @@ The PHP intEncode class is a very simple substitution cypher, used to encode and
 include("classes.php");
 
 
-// 10 randomised characters 
-
-$rnd = "doW4J8l02v";
-
-
 // Encode
 
 $int = 3452;
 
-$enc = intEncode::encode($int, $rnd);
+$enc = intEncode::encode($int);
 
 
 // Decode
 
-$dec = intEncode::decode($enc, $rnd);
+$dec = intEncode::decode($enc);
 
 
 // Example Output
