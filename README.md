@@ -1,5 +1,5 @@
 # PHP intEncode
-The PHP intEncode class is a very simple substitution cypher, used to encode and decode whole numbers into obsfucated strings. Good for obsfucating db id's.
+The PHP intEncode class is a very simple substitution cypher, used to encode and decode whole numbers into obfuscated strings. Good for obfuscating db id's.
 
 # Example Usage
 // Include class file containing PHP intEncode
