@@ -4,15 +4,18 @@
  */
 class intEncode
 {
-    public static function encode($n,$c){
+    const CHARS = "doW4J8l02v"; // Replace with your own 10 random characters
+    public static function encode($n)
+    {
         foreach(str_split($n) as $v){
-            $o[] = $c[$v];
+            $o[] = self::CHARS[$v];
         }
         return implode($o);
     }
-    public static function decode($n,$c){
+    public static function decode($n)
+    {
         foreach(str_split($n) as $v){
-            $o[] = strpos($c,$v);
+            $o[] = strpos(self::CHARS,$v);
         }
         return implode($o);
     }
