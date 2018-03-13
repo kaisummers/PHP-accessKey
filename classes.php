@@ -1,8 +1,8 @@
 <?php
 /*
- * PHP accessKey
+ * PHP intEncode
  */
-class accessKey
+class intEncode
 {
     public static function encode($n,$c){
         foreach(str_split($n) as $v){
