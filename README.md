@@ -11,12 +11,14 @@ include("classes.php");
 
 $int = 3452;
 
-$enc = intEncode::encode($int);
+$intenc = new intEncode();
+
+$enc = $intenc->encode($int);
 
 
 // Decode
 
-$dec = intEncode::decode($enc);
+$dec = $intenc->decode($enc);
 
 
 // Example Output
