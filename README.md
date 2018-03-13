@@ -9,7 +9,7 @@ include("classes.php");
 
 // Encode
 
-$int = 3452;
+$int = 3452; // Integer to be encoded
 
 $intenc = new intEncode();
 
